@@ -1,6 +1,6 @@
 ### R Skript zu "Analyse"
 ### Kurs "Einführung in die moderne Datenanalyse mit R"
-### Datum: März 2021
+### Datum: August 2021
 ### Autor: The R Bootcamp
 
 
