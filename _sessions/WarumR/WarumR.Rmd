@@ -256,20 +256,20 @@ Financial times, July 2018
   <col width="20%">
   <tr style="padding:20px;background-color:white">
   <td style="padding:20px;text-align:center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Microsoft_Excel_Logo.svg/2000px-Microsoft_Excel_Logo.svg.png" height = 150px>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Microsoft_Office_Excel_%282013%E2%80%932019%29.svg/2048px-Microsoft_Office_Excel_%282013%E2%80%932019%29.svg.png" height = 150px>
   </td>
   <td style="padding:20px;text-align:center">
     <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/SPSS_An_IBM_Company_logo.svg" height = 150px>
   </td>
   <td style="padding:20px;text-align:center">
-    <img src="https://www.braincourt.com/wp-content/uploads/2017/11/Tableau.png" height = 150px>
+    <img src="https://pbs.twimg.com/profile_images/876198719397474305/DKUPgGWz_400x400.jpg" height = 150px>
   </td>
   </tr>
 <tr style="padding:20px;background-color:white">
   <td style="padding:20px;text-align:center">
-  <img src="https://pbs.twimg.com/profile_images/876198719397474305/DKUPgGWz_400x400.jpg" height = 150px>
+  <img src="https://www.braincourt.com/wp-content/uploads/2017/11/Tableau.png" height = 150px>
   <td style="padding:20px;text-align:center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/JASP_logo.svg/1200px-JASP_logo.svg.png" height = 150px>
+<img src="https://teorema-rd.com/storage/2020/05/PowerBI-Logo.png" height = 150px>
   </td>
   <td style="padding:20px;text-align:center">
 <img src="https://www.excelofficeservices.com/wp-content/uploads/2018/11/IBM-Watson-Logo.jpeg" height = 150px>

@@ -350,152 +350,6 @@ names(daten) # Variablennamen
 
 ]
 
-
----
-
-# 3 + 1 Datentypen
-
-.pull-left4[
-
-&lt;ul&gt;
-  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
-  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
-  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
-  &lt;li class="m4"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
-  &lt;ul class="level"&gt;
-    &lt;li&gt;&lt;span&gt;Daten von Festplatte lesen&lt;/span&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;span&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;span&gt;&lt;high&gt;3 + 1 Datentypen&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;span&gt;Daten auf die Festplatte schreiben&lt;/span&gt;&lt;/li&gt;
-  &lt;/ul&gt;&lt;br&gt;
-  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-]
-
-.pull-right5[
-
-
-
-
-```r
-# Lese Daten in ein Objekt ein
-daten &lt;- read.csv('1_Data/Tourismus.csv')
-
-# Extrahiere Land mit $
-daten$Land
-```
-
-```
-##  [1] "Belgien"       "Bulgarien"    
-##  [3] "Dänemark"      "Deutschland"  
-##  [5] "Estland"       "Finnland"     
-##  [7] "Frankreich"    "Griechenland" 
-##  [9] "Irland"        "Island"       
-## [11] "Italien"       "Kroatien"     
-## [13] "Lettland"      "Liechtenstein"
-## [15] "Litauen"       "Luxemburg"    
-## [17] "Malta"         "Niederlande"  
-## [19] "Norwegen"      "Österreich"   
-##  [ reached getOption("max.print") -- omitted 51 entries ]
-```
-]
-
----
-
-# 3 + 1 Datentypen
-
-.pull-left4[
-
-&lt;ul&gt;
-  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
-  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
-  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
-  &lt;li class="m4"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
-  &lt;ul class="level"&gt;
-    &lt;li&gt;&lt;span&gt;Daten von Festplatte lesen&lt;/span&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;span&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;span&gt;&lt;high&gt;3 + 1 Datentypen&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;span&gt;Daten auf die Festplatte schreiben&lt;/span&gt;&lt;/li&gt;
-  &lt;/ul&gt;&lt;br&gt;
-  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-]
-
-.pull-right5[
-
-
-
-
-```r
-# Lese Daten in ein Objekt ein
-daten &lt;- read.csv('1_Data/Tourismus.csv')
-
-# Klasse der Land Variable
-class(daten$Land)
-```
-
-```
-## [1] "character"
-```
-]
-
----
-
-# 3 + 1 Datentypen
-
-.pull-left4[
-
-&lt;ul&gt;
-  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
-  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
-  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
-  &lt;li class="m4"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
-  &lt;ul class="level"&gt;
-    &lt;li&gt;&lt;span&gt;Daten von Festplatte lesen&lt;/span&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;span&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;span&gt;&lt;high&gt;3 + 1 Datentypen&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;span&gt;Daten auf die Festplatte schreiben&lt;/span&gt;&lt;/li&gt;
-  &lt;/ul&gt;&lt;br&gt;
-  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-]
-
-.pull-right5[
-
-
-
-
-```r
-# Lese Daten in ein Objekt ein
-daten &lt;- read.csv('1_Data/Tourismus.csv',
-                  stringsAsFactors = FALSE)
-
-# Klasse der Land Variable
-class(daten$Land)
-```
-
-```
-## [1] "character"
-```
-
-```r
-# Extrahiere Land mit $
-daten$Land
-```
-
-```
-## [1] "Belgien"      "Bulgarien"   
-## [3] "Dänemark"     "Deutschland" 
-## [5] "Estland"      "Finnland"    
-## [7] "Frankreich"   "Griechenland"
-##  [ reached getOption("max.print") -- omitted 63 entries ]
-```
-]
-
-
 ---
 
 # 3 + 1 Datentypen
@@ -587,6 +441,96 @@ class(daten$Dauer)
 ```
 ]
 
+
+---
+
+# 3 + 1 Datentypen
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;Daten von Festplatte lesen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;&lt;high&gt;3 + 1 Datentypen&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten auf die Festplatte schreiben&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;br&gt;
+  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+
+
+
+
+```r
+# Lese Daten in ein Objekt ein
+daten &lt;- read.csv('1_Data/Tourismus.csv')
+
+# Extrahiere Land mit $
+daten$Land
+```
+
+```
+##  [1] "Belgien"       "Bulgarien"    
+##  [3] "Dänemark"      "Deutschland"  
+##  [5] "Estland"       "Finnland"     
+##  [7] "Frankreich"    "Griechenland" 
+##  [9] "Irland"        "Island"       
+## [11] "Italien"       "Kroatien"     
+## [13] "Lettland"      "Liechtenstein"
+## [15] "Litauen"       "Luxemburg"    
+## [17] "Malta"         "Niederlande"  
+## [19] "Norwegen"      "Österreich"   
+##  [ reached getOption("max.print") -- omitted 51 entries ]
+```
+]
+
+---
+
+# 3 + 1 Datentypen
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;Daten von Festplatte lesen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;&lt;high&gt;3 + 1 Datentypen&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten auf die Festplatte schreiben&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;br&gt;
+  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+
+
+
+
+```r
+# Lese Daten in ein Objekt ein
+daten &lt;- read.csv('1_Data/Tourismus.csv')
+
+# Klasse der Land Variable
+class(daten$Land)
+```
+
+```
+## [1] "character"
+```
+]
 
 ---
 

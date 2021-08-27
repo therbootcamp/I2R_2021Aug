@@ -352,42 +352,6 @@ eins_zwei_drei
 
 ]
 
----
-
-# <mono><-</mono> verändert Objekte
-
-.pull-left5[
-
-<ul>
-  <li class="m1g"><span>R(Studio)</span></li>
-  <li class="m2"><span>Assignments<br></span></li>
-  <ul class="level">
-    <li><span>Objekt <mono><-</mono> Funktion</span></li>
-    <li><span><mono><-</mono> kreiert Objekte</span></li>
-    <li><span><high><mono><-</mono> verändert Objekte</high></span></li>
-  </ul><br>
-  <li class="m3g"><span>Funktionen</span></li>
-  <li class="m4g"><span>Data I/O</a></span></li>
-  <li class="m5g"><span>Analyse</span></li>
-</ul>
-
-]
-
-.pull-right5[
-```{r}
-# ein Objekt namens eins_zwei_drei
-eins_zwei_drei <- c(1, 2, 3)
-
-# Ergänze um weitere Zahl
-und_vier <- c(eins_zwei_drei, 4)
-
-# Printe das Objekt
-und_vier
-
-```
-
-]
-
 
 ---
 

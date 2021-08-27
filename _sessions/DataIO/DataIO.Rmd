@@ -329,126 +329,6 @@ names(daten) # Variablennamen
 
 ]
 
-
----
-
-# 3 + 1 Datentypen
-
-.pull-left4[
-
-<ul>
-  <li class="m1g"><span>R(Studio)</span></li>
-  <li class="m2g"><span>Assignments<br></span></li>
-  <li class="m3g"><span>Funktionen</span></li>
-  <li class="m4"><span>Data I/O</a></span></li>
-  <ul class="level">
-    <li><span>Daten von Festplatte lesen</span></li>
-    <li><span>Daten leben in <mono>data.frames</span></li>
-    <li><span><high>3 + 1 Datentypen</high></span></li>
-    <li><span>Daten auf die Festplatte schreiben</span></li>
-  </ul><br>
-  <li class="m5g"><span>Analyse</span></li>
-</ul>
-
-]
-
-.pull-right5[
-
-```{r, echo = F}
-options(max.print=20,width=40)
-```
-
-```{r}
-# Lese Daten in ein Objekt ein
-daten <- read.csv('1_Data/Tourismus.csv')
-
-# Extrahiere Land mit $
-daten$Land
-
-```
-]
-
----
-
-# 3 + 1 Datentypen
-
-.pull-left4[
-
-<ul>
-  <li class="m1g"><span>R(Studio)</span></li>
-  <li class="m2g"><span>Assignments<br></span></li>
-  <li class="m3g"><span>Funktionen</span></li>
-  <li class="m4"><span>Data I/O</a></span></li>
-  <ul class="level">
-    <li><span>Daten von Festplatte lesen</span></li>
-    <li><span>Daten leben in <mono>data.frames</span></li>
-    <li><span><high>3 + 1 Datentypen</high></span></li>
-    <li><span>Daten auf die Festplatte schreiben</span></li>
-  </ul><br>
-  <li class="m5g"><span>Analyse</span></li>
-</ul>
-
-]
-
-.pull-right5[
-
-```{r, echo = F}
-options(max.print=20,width=40)
-```
-
-```{r}
-# Lese Daten in ein Objekt ein
-daten <- read.csv('1_Data/Tourismus.csv')
-
-# Klasse der Land Variable
-class(daten$Land)
-
-```
-]
-
----
-
-# 3 + 1 Datentypen
-
-.pull-left4[
-
-<ul>
-  <li class="m1g"><span>R(Studio)</span></li>
-  <li class="m2g"><span>Assignments<br></span></li>
-  <li class="m3g"><span>Funktionen</span></li>
-  <li class="m4"><span>Data I/O</a></span></li>
-  <ul class="level">
-    <li><span>Daten von Festplatte lesen</span></li>
-    <li><span>Daten leben in <mono>data.frames</span></li>
-    <li><span><high>3 + 1 Datentypen</high></span></li>
-    <li><span>Daten auf die Festplatte schreiben</span></li>
-  </ul><br>
-  <li class="m5g"><span>Analyse</span></li>
-</ul>
-
-]
-
-.pull-right5[
-
-```{r, echo = F}
-options(max.print=8,width=40)
-```
-
-```{r}
-# Lese Daten in ein Objekt ein
-daten <- read.csv('1_Data/Tourismus.csv',
-                  stringsAsFactors = FALSE)
-
-# Klasse der Land Variable
-class(daten$Land)
-
-# Extrahiere Land mit $
-daten$Land
-
-```
-]
-
-
 ---
 
 # 3 + 1 Datentypen
@@ -525,6 +405,82 @@ class(daten$Dauer)
 ```
 ]
 
+
+---
+
+# 3 + 1 Datentypen
+
+.pull-left4[
+
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4"><span>Data I/O</a></span></li>
+  <ul class="level">
+    <li><span>Daten von Festplatte lesen</span></li>
+    <li><span>Daten leben in <mono>data.frames</span></li>
+    <li><span><high>3 + 1 Datentypen</high></span></li>
+    <li><span>Daten auf die Festplatte schreiben</span></li>
+  </ul><br>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
+
+]
+
+.pull-right5[
+
+```{r, echo = F}
+options(max.print=20,width=40)
+```
+
+```{r}
+# Lese Daten in ein Objekt ein
+daten <- read.csv('1_Data/Tourismus.csv')
+
+# Extrahiere Land mit $
+daten$Land
+
+```
+]
+
+---
+
+# 3 + 1 Datentypen
+
+.pull-left4[
+
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4"><span>Data I/O</a></span></li>
+  <ul class="level">
+    <li><span>Daten von Festplatte lesen</span></li>
+    <li><span>Daten leben in <mono>data.frames</span></li>
+    <li><span><high>3 + 1 Datentypen</high></span></li>
+    <li><span>Daten auf die Festplatte schreiben</span></li>
+  </ul><br>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
+
+]
+
+.pull-right5[
+
+```{r, echo = F}
+options(max.print=20,width=40)
+```
+
+```{r}
+# Lese Daten in ein Objekt ein
+daten <- read.csv('1_Data/Tourismus.csv')
+
+# Klasse der Land Variable
+class(daten$Land)
+
+```
+]
 
 ---
 

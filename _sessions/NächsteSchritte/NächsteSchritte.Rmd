@@ -727,7 +727,7 @@ Hier ist eine unvollständige Liste guter Bücher über R lose geordnet nach vor
   </td>
 
   <td>
-  <a href="www.rcpp.org/"><img border="0" alt="W3Schools" src="https://assets.thalia.media/img/artikel/09be684f8f904312649b0aabdf417c7992cbcdad-00-00.jpeg" height="180" ></a>
+  <a href="www.rcpp.org/"><img border="0" alt="W3Schools" src="https://images-na.ssl-images-amazon.com/images/I/31Y8QSFEMJL._SX328_BO1,204,203,200_.jpg" height="180" ></a>
   </td>
   
   
@@ -790,8 +790,8 @@ Das Netz ist vll. der beste Ort für Informationen über R.
     <a href="www.dirkwulff.org"><b>dirkwulff.org</b></a><br>
     <a href="https://github.com/dwulff"><b>github.com/dwulff</b></a><br>
     <font size=4><i>packages: </i></font> 
-    <a href="https://cran.r-project.org/web/packages/cstab/index.html"><b>cstab</b></a>, <br>
-    <a href="https://cran.r-project.org/web/packages/mousetrap/index.html"><b>mousetrap</b></a>, <a href="https://cran.r-project.org/web/packages/memnet/index.html"><b>memnet</b> <a href="https://github.com/dwulff/choicepp"><b>choicepp</b>
+    <a href="https://cran.r-project.org/web/packages/cstab/index.html"><b>cstab</b></a>, <a href="https://github.com/dwulff/text2sdg"><b>text2sdg</b></a>, <br>
+    <a href="https://cran.r-project.org/web/packages/mousetrap/index.html"><b>mousetrap</b></a>, <a href="https://cran.r-project.org/web/packages/memnet/index.html"><b>memnet</b>, <a href="https://github.com/dwulff/choicepp"><b>choicepp</b>
     </p>  
   </th>
   
@@ -840,7 +840,7 @@ Das Netz ist vll. der beste Ort für Informationen über R.
       <font style="font-size:20px;weight:700"><br>Einführung in die moderne Datenanalyse mit R</font><br>
       <br>
       <img src="https://therbootcamp.github.io/img/courses/0.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br>
-      <high>März 31,<br>2020</high><br><br><br><br>
+      <high>Okt 15,<br>2020</high><br><br><br><br>
     </p>
   </td>
   <td>
@@ -849,7 +849,7 @@ Das Netz ist vll. der beste Ort für Informationen über R.
       <font style="font-size:20px;weight:700"><br>Explorative Datenanalyse mit R<br></font><br>
       <br>
       <img src="https://therbootcamp.github.io/img/courses/1.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br>
-      <high>März 19-20,<br>2020</high><br><br><br><br>
+      <high>Sep 24-25,<br>2020</high><br><br><br><br>
     </p>
   </td>
   <td>
@@ -858,7 +858,7 @@ Das Netz ist vll. der beste Ort für Informationen über R.
       <font style="font-size:20px;weight:700"><br>Statistik mit R<br><br></font><br>
       <br>
       <img src="https://therbootcamp.github.io/img/courses/2.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br>
-      <high>April 16-17,<br>2020</high><br><br><br><br>
+      <high>Oct 22-23,<br>2021</high><br><br><br><br>
       </a>
     </p>
   </td>
@@ -868,7 +868,7 @@ Das Netz ist vll. der beste Ort für Informationen über R.
       <font style="font-size:20px;weight:700"><br>Maschinelles Lernen mit R<br></font><br>
       <br>
       <img src="https://therbootcamp.github.io/img/courses/3.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br>
-      <high>Mai 14-15,<br>2020</high><br><br><br><br>
+      <high>Nov 19-20,<br>2021</high><br><br><br><br>
       </a>
     </p>
   </td>
@@ -878,7 +878,7 @@ Das Netz ist vll. der beste Ort für Informationen über R.
       <font style="font-size:20px;weight:700"><br>Reporting mit R<br><br></font><br>
       <br>
       <img src="https://therbootcamp.github.io/img/courses/4.png" height="180px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br>
-      <high>Februar 26-27,<br>2020</high><br><br><br><br>
+      <high>tba<br>2021</high><br><br><br><br>
       </a>
     </p>
   </td>
@@ -901,10 +901,10 @@ Das Netz ist vll. der beste Ort für Informationen über R.
 .pull-right45[
 
 <p align="center"><br><br>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfRYHmpdvSZYfhSyfLcSj4qFQcdXXxv5Njrrez1VITPQGrr8Q/viewform?embedded=true" width="430" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe4Gq0mmRTzj-3f3MktA2L74myXhywXU1k6d3N0T0vLbibuog/viewform?embedded=true" width="430" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
 
 ]
-
+  
 ---
 
 class: center, middle
